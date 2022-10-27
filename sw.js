@@ -1,9 +1,9 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('testpwa').then((cache) => cache.addAll([
-      '/git_project/',
-      '/git_project/index.htm',
-      '/git_project/index.js',
+      '/school_exam1/',
+      '/school_exam1/index.htm',
+      '/school_exam1/index.js',
     ])),
   );
 });
